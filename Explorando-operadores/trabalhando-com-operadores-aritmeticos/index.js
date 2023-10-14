@@ -23,3 +23,11 @@ console.log('O resultado da multiplicação de ' + multiplicador + ' e ' + multi
 
 let notaDoMercado = 50
 console.log(notaDoMercado / 2)
+
+let contador = 1
+// '+' increment
+contador ++
+// '-' decrement
+contador --
+
+console.log(contador)
