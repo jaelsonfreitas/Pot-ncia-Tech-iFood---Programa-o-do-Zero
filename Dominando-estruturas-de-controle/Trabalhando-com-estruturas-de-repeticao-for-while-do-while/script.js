@@ -15,3 +15,12 @@ for (let i = 0; i < 10; i++){
 }
 
 console.log(pontosDeVida + " Totais")
+
+// while é uma alternativa ao for. passamos uam regra apenas.
+// devemos sempre incrementar a variável.
+
+let contador = 0
+while(contador < 3){
+	console.log("Olá")
+    contador++
+}
