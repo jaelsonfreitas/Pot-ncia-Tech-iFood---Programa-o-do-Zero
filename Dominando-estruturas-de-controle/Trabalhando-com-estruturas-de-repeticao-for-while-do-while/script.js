@@ -24,3 +24,11 @@ while(contador < 3){
 	console.log("Olá")
     contador++
 }
+
+//do While - neste caso a consição vem após a execução. primeiro faz depois verifica.
+
+let contador = 0
+do {
+	console.log("Good Morning")
+    contador++
+} while (contador < 3)
