@@ -19,3 +19,6 @@ switch(fruta){
     default:
     console.log("Suco genérico")
 }
+
+// posso criar duas condiçoes case em uma unica verificação.
+// posso adidiconar numeros como nome de cases.
