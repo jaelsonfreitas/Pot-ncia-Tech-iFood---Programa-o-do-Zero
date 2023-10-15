@@ -1,19 +1,21 @@
 // estrutura de decisão 
 // switch/case/break/default
-​
-let fruta = "Banana"
-​
+
+let fruta = "Melão"
+
 switch(fruta){
-    case "Laranja": 
+	case "Laranja": 
     console.log("Suco de Laranja")
     break
-
+    
     case "Banana":
     console.log("Vitamina de Banana")
-    break 
-
+    break
+    
     case "Maça":
     console.log("Suco de maça")
     break
     
+    default:
+    console.log("Suco genérico")
 }
