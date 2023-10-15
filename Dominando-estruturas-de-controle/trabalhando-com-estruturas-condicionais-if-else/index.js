@@ -19,3 +19,16 @@ else{
 }
 
 console.log("itens comprado:" + itensComprados)
+
+//if - else 
+let nivelDeFome = 10
+
+if(nivelDeFome === 1) {
+	console.log("Você esta com pouca fome.")
+} else if(nivelDeFome ===2){
+	console.log("muita fome")
+}else{
+	console.log("Você esta com tanta fome que comeria um Leão.")
+}
+
+//if ecandeado quando fazemos um if junto de outro.
