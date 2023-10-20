@@ -8,3 +8,10 @@ function soma(numA, numB) {
 }
 
 // tambem posso eliminar a variavel somatorio, e nunca ter dois valores no mesmo return
+
+let userName = getFirstName("Jaélson José de Freitas")
+console.log("Welcome ," + userName);
+function getFirstName(name){
+    let firstName = name.split(" ")[3]    
+    return firstName
+}
