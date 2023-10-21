@@ -1,6 +1,5 @@
 function levelCalculator (victories, defeats) {
 
-}
 // primeiro criei a função com dois parâmetros ja estabelecidos.
 
 let winBalance = victories - defeats;
@@ -19,9 +18,9 @@ if (winBalance < 10){
  } else if (winBalance >= 81 && winBalance <= 90){
     level = "Diamante";
  } else if (winBalance >= 91 && winBalance <= 100){
-    level = "Lendário")
+    level = "Lendário";
  } else {
-    level = "Imortal"
+    level = "Imortal";
  }
 
  // Aqui acima utilizei uma serie de estruturas de repeticao if else , para conseguir descobrir em qual faixa o jogador se encaixa e conseguir verificar seu nivel. 
