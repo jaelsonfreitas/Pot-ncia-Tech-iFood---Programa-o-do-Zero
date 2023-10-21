@@ -21,9 +21,12 @@ if (winBalance < 10){
  } else if (winBalance >= 91 && winBalance <= 100){
     level = "Lendário")
  } else {
-    nivel = "Imortal"
+    level = "Imortal"
  }
 
  // Aqui acima utilizei uma serie de estruturas de repeticao if else , para conseguir descobrir em qual faixa o jogador se encaixa e conseguir verificar seu nivel. 
 
- 
+ return `O Herói tem saldo de ${winBalance} e está no nível de ${level}`;
+}
+
+// aqui vamos criar a mensagem que contém o saldo de vitórias do jogador.
