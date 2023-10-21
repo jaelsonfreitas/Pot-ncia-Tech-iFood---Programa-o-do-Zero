@@ -34,3 +34,5 @@ let result = levelCalculator(50,30);
 console.log(result);
 
 // agora e só chamar a funcao, passando os valores de vitorias e derrotas como argumentos. Assim vamos receber a mensagem com seu saldo e nivel.
+
+// Aproveite e teste copie e reproduza esse código. 
