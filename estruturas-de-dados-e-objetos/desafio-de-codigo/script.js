@@ -37,3 +37,10 @@ const heroi1 = new Heroi("Jaélson", 33, "mago");
 const heroi2 = new Heroi("Eli", 30, "guerreiro");
 const heroi3 = new Heroi("Favo Jr", 40, "monge");
 const heroi4 = new Heroi("Felipao da Dio", 28, "ninja");
+
+
+// Realizando ataques chamando o método "atacar" para cada herói
+heroi1.atacar();
+heroi2.atacar();
+heroi3.atacar();
+heroi4.atacar();
