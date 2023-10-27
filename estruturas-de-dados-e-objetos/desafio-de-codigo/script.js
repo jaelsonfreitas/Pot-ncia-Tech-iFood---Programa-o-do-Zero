@@ -21,6 +21,13 @@ class Heroi {
             case "monge":
                 ataque = "usou artes marciais"; // Se for um monge, define o ataque como "usou artes marciais"
                 break;
-            case "ninja":
-                ataque = "usou shuriken"; // Se for um ninja, define o ataque como "usou shuriken"
-                break;
+                case "ninja":
+                    ataque = "usou shuriken"; // Se for um ninja, define o ataque como "usou shuriken"
+                    break;
+                default:
+                    ataque = "usou um ataque desconhecido"; // Se for outro tipo, define como "usou um ataque desconhecido"
+                    break;
+            }
+    
+            console.log(`O ${this.tipo} atacou usando ${ataque}`); // Exibe a mensagem de ataque no console
+        }
