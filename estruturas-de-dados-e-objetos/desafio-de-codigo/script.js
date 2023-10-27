@@ -31,3 +31,9 @@ class Heroi {
     
             console.log(`O ${this.tipo} atacou usando ${ataque}`); // Exibe a mensagem de ataque no console
         }
+
+        // Criando heróis usando a classe Heroi
+const heroi1 = new Heroi("Jaélson", 33, "mago");
+const heroi2 = new Heroi("Eli", 30, "guerreiro");
+const heroi3 = new Heroi("Favo Jr", 40, "monge");
+const heroi4 = new Heroi("Felipao da Dio", 28, "ninja");
